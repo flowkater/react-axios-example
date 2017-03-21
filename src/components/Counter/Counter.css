@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+ 
+.container {
+    background-color: #1ABC9C;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    cursor: pointer;
+}
+ 
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.number {
+    font-weight: bold;
+    text-shadow: 0 0 5px #1B6254;
+    font-size: 7em;
+    color: white;
+ 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
